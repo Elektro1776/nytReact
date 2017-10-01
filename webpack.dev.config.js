@@ -31,10 +31,10 @@ module.exports = {
   output: {
     path: path.join(__dirname, 'build/dist'),
     filename: '[name].js',
-    publicPath: '/dist',
+    publicPath: '/',
   },
   devServer: {
-    publicPath: '/dist',
+    publicPath: '/',
     port: 8080,
     host: 'localhost',
     hot: true,

@@ -1,0 +1,1201 @@
+{
+    "status": "OK",
+    "copyright": "Copyright (c) 2017 The New York Times Company. All Rights Reserved.",
+    "response": {
+        "docs": [
+            {
+                "web_url": "https://www.nytimes.com/2017/08/06/us/politics/under-trump-coal-mining-gets-new-life-on-us-lands.html",
+                "snippet": "A business-friendly secretary of the interior has moved to invigorate a struggling industry, reversing Obama-era restrictions to help create “wealth and jobs.”",
+                "print_page": "1",
+                "blog": {},
+                "source": "The New York Times",
+                "multimedia": [
+                    {
+                        "type": "image",
+                        "subtype": "xlarge",
+                        "url": "images/2017/08/05/us/xxlands-6/merlin-to-scoop-125575136-807204-articleLarge.jpg",
+                        "height": 400,
+                        "width": 600,
+                        "rank": 0,
+                        "legacy": {
+                            "xlargewidth": 600,
+                            "xlarge": "images/2017/08/05/us/xxlands-6/merlin-to-scoop-125575136-807204-articleLarge.jpg",
+                            "xlargeheight": 400
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "subtype": "wide",
+                        "url": "images/2017/08/05/us/xxlands-6/xxlands-6-thumbWide-v2.jpg",
+                        "height": 126,
+                        "width": 190,
+                        "rank": 0,
+                        "legacy": {
+                            "wide": "images/2017/08/05/us/xxlands-6/xxlands-6-thumbWide-v2.jpg",
+                            "widewidth": 190,
+                            "wideheight": 126
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "subtype": "thumbnail",
+                        "url": "images/2017/08/05/us/xxlands-6/xxlands-6-thumbStandard.jpg",
+                        "height": 75,
+                        "width": 75,
+                        "rank": 0,
+                        "legacy": {
+                            "thumbnailheight": 75,
+                            "thumbnail": "images/2017/08/05/us/xxlands-6/xxlands-6-thumbStandard.jpg",
+                            "thumbnailwidth": 75
+                        }
+                    }
+                ],
+                "headline": {
+                    "main": "Under Trump, Coal Mining Gets New Life on U.S. Lands",
+                    "kicker": "Trump Rules",
+                    "print_headline": "Trump Unravels  Coal Mine Limits On Federal Land"
+                },
+                "keywords": [
+                    {
+                        "isMajor": "N",
+                        "rank": 1,
+                        "name": "subject",
+                        "value": "Mines and Mining"
+                    },
+                    {
+                        "isMajor": "N",
+                        "rank": 2,
+                        "name": "subject",
+                        "value": "Coal"
+                    },
+                    {
+                        "isMajor": "N",
+                        "rank": 3,
+                        "name": "persons",
+                        "value": "Trump, Donald J"
+                    },
+                    {
+                        "isMajor": "N",
+                        "rank": 4,
+                        "name": "subject",
+                        "value": "Federal Lands"
+                    },
+                    {
+                        "isMajor": "N",
+                        "rank": 5,
+                        "name": "subject",
+                        "value": "United States Politics and Government"
+                    },
+                    {
+                        "isMajor": "N",
+                        "rank": 6,
+                        "name": "subject",
+                        "value": "Global Warming"
+                    },
+                    {
+                        "isMajor": "N",
+                        "rank": 7,
+                        "name": "subject",
+                        "value": "Regulation and Deregulation of Industry"
+                    },
+                    {
+                        "isMajor": "N",
+                        "rank": 8,
+                        "name": "persons",
+                        "value": "Zinke, Ryan (1961- )"
+                    },
+                    {
+                        "isMajor": "N",
+                        "rank": 9,
+                        "name": "persons",
+                        "value": "Obama, Barack"
+                    },
+                    {
+                        "isMajor": "N",
+                        "rank": 10,
+                        "name": "subject",
+                        "value": "National Parks, Monuments and Seashores"
+                    },
+                    {
+                        "isMajor": "N",
+                        "rank": 11,
+                        "name": "subject",
+                        "value": "Crow Indians"
+                    },
+                    {
+                        "isMajor": "N",
+                        "rank": 12,
+                        "name": "organizations",
+                        "value": "Cloud Peak Energy Inc"
+                    },
+                    {
+                        "isMajor": "N",
+                        "rank": 13,
+                        "name": "organizations",
+                        "value": "Bureau of Land Management"
+                    },
+                    {
+                        "isMajor": "N",
+                        "rank": 14,
+                        "name": "organizations",
+                        "value": "Interior Department"
+                    },
+                    {
+                        "isMajor": "N",
+                        "rank": 15,
+                        "name": "persons",
+                        "value": "Jewell, Sally"
+                    },
+                    {
+                        "isMajor": "N",
+                        "rank": 16,
+                        "name": "glocations",
+                        "value": "Montana"
+                    },
+                    {
+                        "isMajor": "N",
+                        "rank": 17,
+                        "name": "glocations",
+                        "value": "Western States (US)"
+                    },
+                    {
+                        "isMajor": "N",
+                        "rank": 18,
+                        "name": "glocations",
+                        "value": "Whitefish (Mont)"
+                    },
+                    {
+                        "isMajor": "N",
+                        "rank": 19,
+                        "name": "glocations",
+                        "value": "United States"
+                    }
+                ],
+                "pub_date": "2017-08-06T15:07:39+0000",
+                "document_type": "article",
+                "new_desk": "National",
+                "section_name": "Politics",
+                "byline": {
+                    "original": "By ERIC LIPTON and BARRY MEIER"
+                },
+                "type_of_material": "News",
+                "_id": "598730c495d0e0246f1fe5ef",
+                "word_count": 2771,
+                "score": 6.0054574,
+                "uri": "nyt://article/f92b5b0c-ae03-5796-99fa-05c6049b50ad"
+            },
+            {
+                "web_url": "https://www.nytimes.com/2017/09/18/us/politics/donald-trump-jr-secret-service.html",
+                "snippet": "Separately, Kellyanne Conway, a counselor to the president, is losing her protection after a revision in the assessment of threats against her, an official said.",
+                "print_page": "15",
+                "blog": {},
+                "source": "The New York Times",
+                "multimedia": [
+                    {
+                        "type": "image",
+                        "subtype": "xlarge",
+                        "url": "images/2017/09/20/us/20dc-secretservice/19dc-secretservice-articleLarge.jpg",
+                        "height": 400,
+                        "width": 600,
+                        "rank": 0,
+                        "legacy": {
+                            "xlargewidth": 600,
+                            "xlarge": "images/2017/09/20/us/20dc-secretservice/19dc-secretservice-articleLarge.jpg",
+                            "xlargeheight": 400
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "subtype": "wide",
+                        "url": "images/2017/09/20/us/20dc-secretservice/19dc-secretservice-thumbWide.jpg",
+                        "height": 126,
+                        "width": 190,
+                        "rank": 0,
+                        "legacy": {
+                            "wide": "images/2017/09/20/us/20dc-secretservice/19dc-secretservice-thumbWide.jpg",
+                            "widewidth": 190,
+                            "wideheight": 126
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "subtype": "thumbnail",
+                        "url": "images/2017/09/20/us/20dc-secretservice/19dc-secretservice-thumbStandard.jpg",
+                        "height": 75,
+                        "width": 75,
+                        "rank": 0,
+                        "legacy": {
+                            "thumbnailheight": 75,
+                            "thumbnail": "images/2017/09/20/us/20dc-secretservice/19dc-secretservice-thumbStandard.jpg",
+                            "thumbnailwidth": 75
+                        }
+                    }
+                ],
+                "headline": {
+                    "main": "Donald Trump Jr. Gives Up Secret Service Protection, Seeking Privacy",
+                    "print_headline": "Trump Jr., Citing Privacy, Gives Up His Secret Service Protection"
+                },
+                "keywords": [
+                    {
+                        "isMajor": "N",
+                        "rank": 1,
+                        "name": "subject",
+                        "value": "United States Politics and Government"
+                    },
+                    {
+                        "isMajor": "N",
+                        "rank": 2,
+                        "name": "organizations",
+                        "value": "Trump Organization"
+                    },
+                    {
+                        "isMajor": "N",
+                        "rank": 3,
+                        "name": "persons",
+                        "value": "Trump, Donald J Jr"
+                    },
+                    {
+                        "isMajor": "N",
+                        "rank": 4,
+                        "name": "persons",
+                        "value": "Trump, Donald J"
+                    }
+                ],
+                "pub_date": "2017-09-19T00:06:24+0000",
+                "document_type": "article",
+                "new_desk": "Washington",
+                "section_name": "Politics",
+                "byline": {
+                    "original": "By NICHOLAS FANDOS and MAGGIE HABERMAN"
+                },
+                "type_of_material": "News",
+                "_id": "59c05f8695d0e0246f20971f",
+                "word_count": 537,
+                "score": 4.9682975,
+                "uri": "nyt://article/363390e0-b659-574f-b928-8afa4676cef1"
+            },
+            {
+                "web_url": "https://www.nytimes.com/2017/09/09/business/president-trump-organization-business-golf.html",
+                "snippet": "The red-blue political divide is not only informing the president’s policies, it is influencing the bottom line of the family-run Trump Organization.",
+                "print_page": "1",
+                "blog": {},
+                "source": "The New York Times",
+                "multimedia": [
+                    {
+                        "type": "image",
+                        "subtype": "xlarge",
+                        "url": "images/2017/09/10/business/10reg-redblue1/10reg-redblue1-articleLarge.jpg",
+                        "height": 400,
+                        "width": 600,
+                        "rank": 0,
+                        "legacy": {
+                            "xlargewidth": 600,
+                            "xlarge": "images/2017/09/10/business/10reg-redblue1/10reg-redblue1-articleLarge.jpg",
+                            "xlargeheight": 400
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "subtype": "wide",
+                        "url": "images/2017/09/10/business/10reg-redblue1/10reg-redblue1-thumbWide.jpg",
+                        "height": 126,
+                        "width": 190,
+                        "rank": 0,
+                        "legacy": {
+                            "wide": "images/2017/09/10/business/10reg-redblue1/10reg-redblue1-thumbWide.jpg",
+                            "widewidth": 190,
+                            "wideheight": 126
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "subtype": "thumbnail",
+                        "url": "images/2017/09/10/business/10reg-redblue1/10reg-redblue1-thumbStandard.jpg",
+                        "height": 75,
+                        "width": 75,
+                        "rank": 0,
+                        "legacy": {
+                            "thumbnailheight": 75,
+                            "thumbnail": "images/2017/09/10/business/10reg-redblue1/10reg-redblue1-thumbStandard.jpg",
+                            "thumbnailwidth": 75
+                        }
+                    }
+                ],
+                "headline": {
+                    "main": "How Is President Trump’s Business Doing? Check the Electoral College",
+                    "print_headline": "Blue-Red Split: From Capitol To 18th Green"
+                },
+                "keywords": [
+                    {
+                        "isMajor": "N",
+                        "rank": 1,
+                        "name": "persons",
+                        "value": "Trump, Donald J"
+                    },
+                    {
+                        "isMajor": "N",
+                        "rank": 2,
+                        "name": "subject",
+                        "value": "United States Politics and Government"
+                    },
+                    {
+                        "isMajor": "N",
+                        "rank": 3,
+                        "name": "subject",
+                        "value": "Golf"
+                    },
+                    {
+                        "isMajor": "N",
+                        "rank": 4,
+                        "name": "subject",
+                        "value": "Presidential Election of 2016"
+                    },
+                    {
+                        "isMajor": "N",
+                        "rank": 5,
+                        "name": "organizations",
+                        "value": "Trump Organization"
+                    }
+                ],
+                "pub_date": "2017-09-09T20:20:23+0000",
+                "document_type": "article",
+                "new_desk": "Business",
+                "byline": {
+                    "original": "By ERIC LIPTON, BEN PROTESS and ANDREW W. LEHREN"
+                },
+                "type_of_material": "News",
+                "_id": "59b44d1195d0e0246f20413b",
+                "word_count": 1644,
+                "score": 4.576041,
+                "uri": "nyt://article/d1c686a5-c7e2-5b38-ba4e-6901af2bfb40"
+            },
+            {
+                "web_url": "https://www.nytimes.com/2017/08/26/business/trump-golf-course-dubai.html",
+                "snippet": "At a golf course managed by the president’s company, migrant workers employed by a local contractor complain they are not paid on time.",
+                "print_page": "4",
+                "blog": {},
+                "source": "The New York Times",
+                "multimedia": [
+                    {
+                        "type": "image",
+                        "subtype": "xlarge",
+                        "url": "images/2017/08/27/business/00TRUMPGOLF20/00TRUMPGOLF20-articleLarge.jpg",
+                        "height": 400,
+                        "width": 600,
+                        "rank": 0,
+                        "legacy": {
+                            "xlargewidth": 600,
+                            "xlarge": "images/2017/08/27/business/00TRUMPGOLF20/00TRUMPGOLF20-articleLarge.jpg",
+                            "xlargeheight": 400
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "subtype": "wide",
+                        "url": "images/2017/08/27/business/00TRUMPGOLF20/00TRUMPGOLF20-thumbWide.jpg",
+                        "height": 126,
+                        "width": 190,
+                        "rank": 0,
+                        "legacy": {
+                            "wide": "images/2017/08/27/business/00TRUMPGOLF20/00TRUMPGOLF20-thumbWide.jpg",
+                            "widewidth": 190,
+                            "wideheight": 126
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "subtype": "thumbnail",
+                        "url": "images/2017/08/27/business/00TRUMPGOLF20/00TRUMPGOLF20-thumbStandard.jpg",
+                        "height": 75,
+                        "width": 75,
+                        "rank": 0,
+                        "legacy": {
+                            "thumbnailheight": 75,
+                            "thumbnail": "images/2017/08/27/business/00TRUMPGOLF20/00TRUMPGOLF20-thumbStandard.jpg",
+                            "thumbnailwidth": 75
+                        }
+                    }
+                ],
+                "headline": {
+                    "main": "Late Wages for Migrant Workers at a Trump Golf Course in Dubai",
+                    "print_headline": "A Paycheck Often Deferred"
+                },
+                "keywords": [
+                    {
+                        "isMajor": "N",
+                        "rank": 1,
+                        "name": "subject",
+                        "value": "Foreign Workers"
+                    },
+                    {
+                        "isMajor": "N",
+                        "rank": 2,
+                        "name": "organizations",
+                        "value": "Trump Organization"
+                    },
+                    {
+                        "isMajor": "N",
+                        "rank": 3,
+                        "name": "persons",
+                        "value": "Trump, Donald J"
+                    },
+                    {
+                        "isMajor": "N",
+                        "rank": 4,
+                        "name": "subject",
+                        "value": "Golf"
+                    },
+                    {
+                        "isMajor": "N",
+                        "rank": 5,
+                        "name": "glocations",
+                        "value": "Dubai (United Arab Emirates)"
+                    },
+                    {
+                        "isMajor": "N",
+                        "rank": 6,
+                        "name": "subject",
+                        "value": "Workplace Hazards and Violations"
+                    },
+                    {
+                        "isMajor": "N",
+                        "rank": 7,
+                        "name": "subject",
+                        "value": "Wages and Salaries"
+                    },
+                    {
+                        "isMajor": "N",
+                        "rank": 8,
+                        "name": "subject",
+                        "value": "Remittances"
+                    }
+                ],
+                "pub_date": "2017-08-26T09:00:59+0000",
+                "document_type": "article",
+                "new_desk": "SundayBusiness",
+                "byline": {
+                    "original": "By PETER S. GOODMAN"
+                },
+                "type_of_material": "News",
+                "_id": "59a138ee95d0e0246f201a26",
+                "word_count": 1709,
+                "score": 4.316427,
+                "uri": "nyt://article/b5cbefac-0b7f-51f0-b228-656409af70d3"
+            },
+            {
+                "web_url": "https://www.nytimes.com/2017/08/05/opinion/sunday/whats-the-deal-mr-trump.html",
+                "snippet": "The president calls himself a deal maker. But any skills he had have failed him in the White House. Now Congress is pushing him to the side.",
+                "print_page": "8",
+                "blog": {},
+                "source": "The New York Times",
+                "multimedia": [
+                    {
+                        "type": "image",
+                        "subtype": "xlarge",
+                        "url": "images/2017/08/06/opinion/06sun1-v3/merlin-to-scoop-120224756-899632-articleLarge.jpg",
+                        "height": 404,
+                        "width": 600,
+                        "rank": 0,
+                        "legacy": {
+                            "xlargewidth": 600,
+                            "xlarge": "images/2017/08/06/opinion/06sun1-v3/merlin-to-scoop-120224756-899632-articleLarge.jpg",
+                            "xlargeheight": 404
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "subtype": "wide",
+                        "url": "images/2017/08/06/opinion/06sun1-v3/06sun1-v3-thumbWide.jpg",
+                        "height": 126,
+                        "width": 190,
+                        "rank": 0,
+                        "legacy": {
+                            "wide": "images/2017/08/06/opinion/06sun1-v3/06sun1-v3-thumbWide.jpg",
+                            "widewidth": 190,
+                            "wideheight": 126
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "subtype": "thumbnail",
+                        "url": "images/2017/08/06/opinion/06sun1-v3/06sun1-v3-thumbStandard.jpg",
+                        "height": 75,
+                        "width": 75,
+                        "rank": 0,
+                        "legacy": {
+                            "thumbnailheight": 75,
+                            "thumbnail": "images/2017/08/06/opinion/06sun1-v3/06sun1-v3-thumbStandard.jpg",
+                            "thumbnailwidth": 75
+                        }
+                    }
+                ],
+                "headline": {
+                    "main": "What’s the Deal, Mr. Trump?",
+                    "kicker": "Editorial",
+                    "print_headline": "What’s the Deal, Mr. Trump?"
+                },
+                "keywords": [
+                    {
+                        "isMajor": "N",
+                        "rank": 1,
+                        "name": "subject",
+                        "value": "United States Politics and Government"
+                    },
+                    {
+                        "isMajor": "N",
+                        "rank": 2,
+                        "name": "glocations",
+                        "value": "United States"
+                    },
+                    {
+                        "isMajor": "N",
+                        "rank": 3,
+                        "name": "creative_works",
+                        "value": "Trump: The Art of the Deal (Book)"
+                    },
+                    {
+                        "isMajor": "N",
+                        "rank": 4,
+                        "name": "persons",
+                        "value": "Trump, Donald J"
+                    }
+                ],
+                "pub_date": "2017-08-05T18:30:18+0000",
+                "document_type": "article",
+                "new_desk": "Editorial",
+                "section_name": "Sunday Review",
+                "byline": {
+                    "original": "By THE EDITORIAL BOARD"
+                },
+                "type_of_material": "Editorial",
+                "_id": "59860ec395d0e0246f1fe4c0",
+                "word_count": 805,
+                "score": 4.043511,
+                "uri": "nyt://article/4359ba71-352c-5b74-8160-b473d8ada555"
+            },
+            {
+                "web_url": "https://www.nytimes.com/2017/07/11/business/the-deep-industry-ties-of-trumps-deregulation-teams.html",
+                "snippet": "A campaign to cut government rules is being conducted largely out of public view, often by hires with potential conflicts, an investigation has found.",
+                "print_page": "1",
+                "blog": {},
+                "source": "The New York Times",
+                "multimedia": [
+                    {
+                        "type": "image",
+                        "subtype": "xlarge",
+                        "url": "images/2017/07/11/us/11trumpethics/11trumpethics-articleLarge.jpg",
+                        "height": 399,
+                        "width": 600,
+                        "rank": 0,
+                        "legacy": {
+                            "xlargewidth": 600,
+                            "xlarge": "images/2017/07/11/us/11trumpethics/11trumpethics-articleLarge.jpg",
+                            "xlargeheight": 399
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "subtype": "wide",
+                        "url": "images/2017/07/11/us/11trumpethics/11trumpethics-thumbWide.jpg",
+                        "height": 126,
+                        "width": 190,
+                        "rank": 0,
+                        "legacy": {
+                            "wide": "images/2017/07/11/us/11trumpethics/11trumpethics-thumbWide.jpg",
+                            "widewidth": 190,
+                            "wideheight": 126
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "subtype": "thumbnail",
+                        "url": "images/2017/07/11/us/11trumpethics/11trumpethics-thumbStandard.jpg",
+                        "height": 75,
+                        "width": 75,
+                        "rank": 0,
+                        "legacy": {
+                            "thumbnailheight": 75,
+                            "thumbnail": "images/2017/07/11/us/11trumpethics/11trumpethics-thumbStandard.jpg",
+                            "thumbnailwidth": 75
+                        }
+                    }
+                ],
+                "headline": {
+                    "main": "The Deep Industry Ties of Trump’s Deregulation Teams",
+                    "kicker": "Trump Rules",
+                    "print_headline": "The Deep Industry Connections Of Trump’s Deregulation Teams"
+                },
+                "keywords": [
+                    {
+                        "isMajor": "N",
+                        "rank": 1,
+                        "name": "persons",
+                        "value": "Trump, Donald J"
+                    },
+                    {
+                        "isMajor": "N",
+                        "rank": 2,
+                        "name": "subject",
+                        "value": "United States Politics and Government"
+                    },
+                    {
+                        "isMajor": "N",
+                        "rank": 3,
+                        "name": "subject",
+                        "value": "Regulation and Deregulation of Industry"
+                    },
+                    {
+                        "isMajor": "N",
+                        "rank": 4,
+                        "name": "subject",
+                        "value": "Appointments and Executive Changes"
+                    },
+                    {
+                        "isMajor": "N",
+                        "rank": 5,
+                        "name": "subject",
+                        "value": "Conflicts of Interest"
+                    },
+                    {
+                        "isMajor": "N",
+                        "rank": 6,
+                        "name": "organizations",
+                        "value": "Agriculture Department"
+                    },
+                    {
+                        "isMajor": "N",
+                        "rank": 7,
+                        "name": "organizations",
+                        "value": "Education Department (US)"
+                    },
+                    {
+                        "isMajor": "N",
+                        "rank": 8,
+                        "name": "organizations",
+                        "value": "Energy Department"
+                    },
+                    {
+                        "isMajor": "N",
+                        "rank": 9,
+                        "name": "organizations",
+                        "value": "Environmental Protection Agency"
+                    },
+                    {
+                        "isMajor": "N",
+                        "rank": 10,
+                        "name": "organizations",
+                        "value": "Government Accountability Office"
+                    },
+                    {
+                        "isMajor": "N",
+                        "rank": 11,
+                        "name": "organizations",
+                        "value": "Interior Department"
+                    },
+                    {
+                        "isMajor": "N",
+                        "rank": 12,
+                        "name": "organizations",
+                        "value": "Housing and Urban Development Department"
+                    },
+                    {
+                        "isMajor": "N",
+                        "rank": 13,
+                        "name": "subject",
+                        "value": "Endangered and Extinct Species"
+                    },
+                    {
+                        "isMajor": "N",
+                        "rank": 14,
+                        "name": "subject",
+                        "value": "Lobbying and Lobbyists"
+                    },
+                    {
+                        "isMajor": "N",
+                        "rank": 15,
+                        "name": "organizations",
+                        "value": "Syngenta AG"
+                    },
+                    {
+                        "isMajor": "N",
+                        "rank": 16,
+                        "name": "subject",
+                        "value": "Pesticides"
+                    },
+                    {
+                        "isMajor": "N",
+                        "rank": 17,
+                        "name": "persons",
+                        "value": "Cameron, Scott J"
+                    },
+                    {
+                        "isMajor": "N",
+                        "rank": 18,
+                        "name": "persons",
+                        "value": "Dravis, Samantha"
+                    },
+                    {
+                        "isMajor": "N",
+                        "rank": 19,
+                        "name": "persons",
+                        "value": "Kasper, Maren"
+                    },
+                    {
+                        "isMajor": "N",
+                        "rank": 20,
+                        "name": "persons",
+                        "value": "McCormack, Brian"
+                    }
+                ],
+                "pub_date": "2017-07-11T09:00:38+0000",
+                "document_type": "article",
+                "new_desk": "Business",
+                "byline": {
+                    "original": "By DANIELLE IVORY and ROBERT FATURECHI"
+                },
+                "type_of_material": "News",
+                "_id": "596493bd95d0e0246f1f9c12",
+                "word_count": 2823,
+                "score": 3.7319596,
+                "uri": "nyt://article/b5a61602-73bd-59de-86ba-9430e14a81a4"
+            },
+            {
+                "web_url": "https://www.nytimes.com/2017/08/28/us/politics/trump-tower-putin-felix-sater.html",
+                "snippet": "Emails show that Felix Sater promised to get Vladimir Putin’s support for a Trump Tower in Moscow. “Our boy can become president,” he wrote.",
+                "print_page": "1",
+                "blog": {},
+                "source": "The New York Times",
+                "multimedia": [
+                    {
+                        "type": "image",
+                        "subtype": "xlarge",
+                        "url": "images/2017/08/29/us/29dc-tower1/06TRUMPSOHOweb2-articleLarge.jpg",
+                        "height": 400,
+                        "width": 600,
+                        "rank": 0,
+                        "legacy": {
+                            "xlargewidth": 600,
+                            "xlarge": "images/2017/08/29/us/29dc-tower1/06TRUMPSOHOweb2-articleLarge.jpg",
+                            "xlargeheight": 400
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "subtype": "wide",
+                        "url": "images/2017/08/29/us/29dc-tower1/29dc-tower1-thumbWide-v2.jpg",
+                        "height": 126,
+                        "width": 190,
+                        "rank": 0,
+                        "legacy": {
+                            "wide": "images/2017/08/29/us/29dc-tower1/29dc-tower1-thumbWide-v2.jpg",
+                            "widewidth": 190,
+                            "wideheight": 126
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "subtype": "thumbnail",
+                        "url": "images/2017/08/29/us/29dc-tower1/29dc-tower1-thumbStandard-v2.jpg",
+                        "height": 75,
+                        "width": 75,
+                        "rank": 0,
+                        "legacy": {
+                            "thumbnailheight": 75,
+                            "thumbnail": "images/2017/08/29/us/29dc-tower1/29dc-tower1-thumbStandard-v2.jpg",
+                            "thumbnailwidth": 75
+                        }
+                    }
+                ],
+                "headline": {
+                    "main": "Trump Associate Boasted That Moscow Business Deal ‘Will Get Donald Elected’",
+                    "print_headline": "Trump Associate Boasted in Email Of Ties to Putin"
+                },
+                "keywords": [
+                    {
+                        "isMajor": "N",
+                        "rank": 1,
+                        "name": "subject",
+                        "value": "Russian Interference in 2016 US Elections and Ties to Trump Associates"
+                    },
+                    {
+                        "isMajor": "N",
+                        "rank": 2,
+                        "name": "persons",
+                        "value": "Sater, Felix H"
+                    },
+                    {
+                        "isMajor": "N",
+                        "rank": 3,
+                        "name": "persons",
+                        "value": "Cohen, Michael D (1966- )"
+                    },
+                    {
+                        "isMajor": "N",
+                        "rank": 4,
+                        "name": "persons",
+                        "value": "Trump, Donald J"
+                    },
+                    {
+                        "isMajor": "N",
+                        "rank": 5,
+                        "name": "organizations",
+                        "value": "Trump Organization"
+                    },
+                    {
+                        "isMajor": "N",
+                        "rank": 6,
+                        "name": "organizations",
+                        "value": "Trump Tower (Manhattan, NY)"
+                    },
+                    {
+                        "isMajor": "N",
+                        "rank": 7,
+                        "name": "persons",
+                        "value": "Putin, Vladimir V"
+                    },
+                    {
+                        "isMajor": "N",
+                        "rank": 8,
+                        "name": "glocations",
+                        "value": "Russia"
+                    },
+                    {
+                        "isMajor": "N",
+                        "rank": 9,
+                        "name": "subject",
+                        "value": "Presidential Election of 2016"
+                    },
+                    {
+                        "isMajor": "N",
+                        "rank": 10,
+                        "name": "glocations",
+                        "value": "Moscow (Russia)"
+                    }
+                ],
+                "pub_date": "2017-08-28T16:33:11+0000",
+                "document_type": "article",
+                "new_desk": "Washington",
+                "section_name": "Politics",
+                "byline": {
+                    "original": "By MATT APUZZO and MAGGIE HABERMAN"
+                },
+                "type_of_material": "News",
+                "_id": "59a445d095d0e0246f201e3a",
+                "word_count": 1196,
+                "score": 3.6098945,
+                "uri": "nyt://article/8c37ec30-8399-534a-905c-10bc5a742fb0"
+            },
+            {
+                "web_url": "https://www.nytimes.com/2017/08/25/us/politics/trump-hotel-washington.html",
+                "snippet": "In the first summer of the Trump administration, the Trump International Hotel has cemented its status as a place for supporters to curry favor with people in power.",
+                "print_page": "1",
+                "blog": {},
+                "source": "The New York Times",
+                "multimedia": [
+                    {
+                        "type": "image",
+                        "subtype": "xlarge",
+                        "url": "images/2017/08/26/us/26dc-TRUMPHOTEL-1/00dc-TRUMPHOTEL-1-articleLarge.jpg",
+                        "height": 399,
+                        "width": 600,
+                        "rank": 0,
+                        "legacy": {
+                            "xlargewidth": 600,
+                            "xlarge": "images/2017/08/26/us/26dc-TRUMPHOTEL-1/00dc-TRUMPHOTEL-1-articleLarge.jpg",
+                            "xlargeheight": 399
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "subtype": "wide",
+                        "url": "images/2017/08/26/us/26dc-TRUMPHOTEL-1/00dc-TRUMPHOTEL-1-thumbWide.jpg",
+                        "height": 126,
+                        "width": 190,
+                        "rank": 0,
+                        "legacy": {
+                            "wide": "images/2017/08/26/us/26dc-TRUMPHOTEL-1/00dc-TRUMPHOTEL-1-thumbWide.jpg",
+                            "widewidth": 190,
+                            "wideheight": 126
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "subtype": "thumbnail",
+                        "url": "images/2017/08/26/us/26dc-TRUMPHOTEL-1/00dc-TRUMPHOTEL-1-thumbStandard.jpg",
+                        "height": 75,
+                        "width": 75,
+                        "rank": 0,
+                        "legacy": {
+                            "thumbnailheight": 75,
+                            "thumbnail": "images/2017/08/26/us/26dc-TRUMPHOTEL-1/00dc-TRUMPHOTEL-1-thumbStandard.jpg",
+                            "thumbnailwidth": 75
+                        }
+                    }
+                ],
+                "headline": {
+                    "main": "Trump Hotel at Night: Lobbyists, Cabinet Members, $60 Steaks",
+                    "print_headline": "Trump Hotel by Night: Lobbyists and $60 Steaks"
+                },
+                "keywords": [
+                    {
+                        "isMajor": "N",
+                        "rank": 1,
+                        "name": "organizations",
+                        "value": "Trump Organization"
+                    },
+                    {
+                        "isMajor": "N",
+                        "rank": 2,
+                        "name": "persons",
+                        "value": "Trump, Donald J"
+                    },
+                    {
+                        "isMajor": "N",
+                        "rank": 3,
+                        "name": "subject",
+                        "value": "United States Politics and Government"
+                    },
+                    {
+                        "isMajor": "N",
+                        "rank": 4,
+                        "name": "glocations",
+                        "value": "Washington (DC)"
+                    },
+                    {
+                        "isMajor": "N",
+                        "rank": 5,
+                        "name": "organizations",
+                        "value": "Trump International Hotel (Washington, DC)"
+                    }
+                ],
+                "pub_date": "2017-08-25T09:00:26+0000",
+                "document_type": "article",
+                "new_desk": "Washington",
+                "section_name": "Politics",
+                "byline": {
+                    "original": "By KATIE ROGERS"
+                },
+                "type_of_material": "News",
+                "_id": "599fe73c95d0e0246f20174e",
+                "word_count": 1678,
+                "score": 3.4992301,
+                "uri": "nyt://article/84e149ca-081f-5427-a35d-c1ccd4295264"
+            },
+            {
+                "web_url": "https://www.nytimes.com/2017/07/09/business/the-scholar-who-will-help-lead-trumps-assault-on-rules.html",
+                "snippet": "She is expected to run an obscure but powerful office at the heart of Mr. Trump’s plan to reshape government rules.",
+                "print_page": "1",
+                "blog": {},
+                "source": "The New York Times",
+                "multimedia": [
+                    {
+                        "type": "image",
+                        "subtype": "xlarge",
+                        "url": "images/2017/07/10/us/11regulation/11regulation-articleLarge-v2.jpg",
+                        "height": 400,
+                        "width": 600,
+                        "rank": 0,
+                        "legacy": {
+                            "xlargewidth": 600,
+                            "xlarge": "images/2017/07/10/us/11regulation/11regulation-articleLarge-v2.jpg",
+                            "xlargeheight": 400
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "subtype": "wide",
+                        "url": "images/2017/07/10/us/11regulation/11regulation-thumbWide-v2.jpg",
+                        "height": 126,
+                        "width": 190,
+                        "rank": 0,
+                        "legacy": {
+                            "wide": "images/2017/07/10/us/11regulation/11regulation-thumbWide-v2.jpg",
+                            "widewidth": 190,
+                            "wideheight": 126
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "subtype": "thumbnail",
+                        "url": "images/2017/07/10/us/11regulation/11regulation-thumbStandard-v2.jpg",
+                        "height": 75,
+                        "width": 75,
+                        "rank": 0,
+                        "legacy": {
+                            "thumbnailheight": 75,
+                            "thumbnail": "images/2017/07/10/us/11regulation/11regulation-thumbStandard-v2.jpg",
+                            "thumbnailwidth": 75
+                        }
+                    }
+                ],
+                "headline": {
+                    "main": "Neomi Rao, the Scholar Who Will Help Lead Trump’s Regulatory Overhaul",
+                    "kicker": "Trump Rules",
+                    "print_headline": "Rolling Back U.S. Regulations Will Test One Scholar’s Finesse"
+                },
+                "keywords": [
+                    {
+                        "isMajor": "N",
+                        "rank": 1,
+                        "name": "persons",
+                        "value": "Rao, Neomi"
+                    },
+                    {
+                        "isMajor": "N",
+                        "rank": 2,
+                        "name": "subject",
+                        "value": "Appointments and Executive Changes"
+                    },
+                    {
+                        "isMajor": "N",
+                        "rank": 3,
+                        "name": "organizations",
+                        "value": "Office of Information and Regulatory Affairs (US)"
+                    },
+                    {
+                        "isMajor": "N",
+                        "rank": 4,
+                        "name": "subject",
+                        "value": "Regulation and Deregulation of Industry"
+                    },
+                    {
+                        "isMajor": "N",
+                        "rank": 5,
+                        "name": "subject",
+                        "value": "United States Politics and Government"
+                    },
+                    {
+                        "isMajor": "N",
+                        "rank": 6,
+                        "name": "persons",
+                        "value": "Koch, Charles G"
+                    },
+                    {
+                        "isMajor": "N",
+                        "rank": 7,
+                        "name": "persons",
+                        "value": "Trump, Donald J"
+                    }
+                ],
+                "pub_date": "2017-07-10T00:12:43+0000",
+                "document_type": "article",
+                "new_desk": "Business",
+                "byline": {
+                    "original": "By STEVE EDER"
+                },
+                "type_of_material": "News",
+                "_id": "5962c68095d0e0246f1f986b",
+                "word_count": 2474,
+                "score": 3.483976,
+                "uri": "nyt://article/114c0d8b-0c8c-51e9-94cb-b683d1bc69db"
+            },
+            {
+                "web_url": "https://www.nytimes.com/2017/08/23/nyregion/trump-memorabilia-trump-tower.html",
+                "snippet": "Roger Sewani owns a newsstand in Trump Tower. Since the election, his business has morphed into selling Trump items.",
+                "print_page": "4",
+                "blog": {},
+                "source": "The New York Times",
+                "multimedia": [
+                    {
+                        "type": "image",
+                        "subtype": "xlarge",
+                        "url": "images/2017/08/15/nyregion/15trumpgifts1/15trumpgifts1-articleLarge.jpg",
+                        "height": 400,
+                        "width": 600,
+                        "rank": 0,
+                        "legacy": {
+                            "xlargewidth": 600,
+                            "xlarge": "images/2017/08/15/nyregion/15trumpgifts1/15trumpgifts1-articleLarge.jpg",
+                            "xlargeheight": 400
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "subtype": "wide",
+                        "url": "images/2017/08/15/nyregion/15trumpgifts1/15trumpgifts1-thumbWide.jpg",
+                        "height": 126,
+                        "width": 190,
+                        "rank": 0,
+                        "legacy": {
+                            "wide": "images/2017/08/15/nyregion/15trumpgifts1/15trumpgifts1-thumbWide.jpg",
+                            "widewidth": 190,
+                            "wideheight": 126
+                        }
+                    },
+                    {
+                        "type": "image",
+                        "subtype": "thumbnail",
+                        "url": "images/2017/08/15/nyregion/15trumpgifts1/15trumpgifts1-thumbStandard.jpg",
+                        "height": 75,
+                        "width": 75,
+                        "rank": 0,
+                        "legacy": {
+                            "thumbnailheight": 75,
+                            "thumbnail": "images/2017/08/15/nyregion/15trumpgifts1/15trumpgifts1-thumbStandard.jpg",
+                            "thumbnailwidth": 75
+                        }
+                    }
+                ],
+                "headline": {
+                    "main": "Selling Trump Memorabilia at ‘the Source’: Trump Tower",
+                    "kicker": "Character Study",
+                    "print_headline": "This Man Is Sold on Trump"
+                },
+                "keywords": [
+                    {
+                        "isMajor": "N",
+                        "rank": 1,
+                        "name": "subject",
+                        "value": "Memorabilia and Souvenirs"
+                    },
+                    {
+                        "isMajor": "N",
+                        "rank": 2,
+                        "name": "subject",
+                        "value": "Newsdealers and Newsstands"
+                    },
+                    {
+                        "isMajor": "N",
+                        "rank": 3,
+                        "name": "organizations",
+                        "value": "Trump Tower (Manhattan, NY)"
+                    },
+                    {
+                        "isMajor": "N",
+                        "rank": 4,
+                        "name": "persons",
+                        "value": "Trump, Donald J"
+                    },
+                    {
+                        "isMajor": "N",
+                        "rank": 5,
+                        "name": "glocations",
+                        "value": "New York City"
+                    },
+                    {
+                        "isMajor": "N",
+                        "rank": 6,
+                        "name": "glocations",
+                        "value": "Fifth Avenue (Manhattan, NY)"
+                    }
+                ],
+                "pub_date": "2017-08-23T13:00:04+0000",
+                "document_type": "article",
+                "new_desk": "Metropolitan",
+                "byline": {
+                    "original": "By COREY KILGANNON"
+                },
+                "type_of_material": "News",
+                "_id": "599d7c5b95d0e0246f2011a3",
+                "word_count": 844,
+                "score": 3.46441,
+                "uri": "nyt://article/b09ece08-71a9-58a9-8699-f65b5861d56d"
+            }
+        ],
+        "meta": {
+            "hits": 64613,
+            "offset": 0,
+            "time": 87
+        }
+    }
+}
