@@ -19,13 +19,13 @@ export default function configureStore(history) {
     // other store enhancers if any
   ));
   // const store = createStore(reducer, enhancer );
-  if (module.hot) {
-    // Enable Webpack hot module replacement for reducers
-    module.hot.accept('./reducers', () => {
-      const nextReducers = require('./reducers');
-      const rootReducer = nextReducers;
-      store.replaceReducer(rootReducer);
-    });
-  }
+  // if (module.hot) {
+  //   // Enable Webpack hot module replacement for reducers
+  //   module.hot.accept('./reducers', () => {
+  //     const nextReducers = require('./reducers');
+  //     const rootReducer = nextReducers;
+  //     store.replaceReducer(rootReducer);
+  //   });
+  // }
   return store;
 }
