@@ -17,7 +17,7 @@ const root = process.cwd();
 module.exports = {
   devtool: 'source-map',
   resolve: {
-    modules: [path.resolve('./client'), path.resolve('./node_modules'), path.resolve(root, 'client/node_modules')],
+    modules: [path.resolve('./client'), path.resolve('./node_modules'),path.resolve('./client/node_modules')],
   },
   entry: {
     vendor: [
