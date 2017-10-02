@@ -51,16 +51,16 @@ module.exports = {
     filename: '[name].js',
     publicPath: '/',
   },
-  devServer: {
-    publicPath: '/',
-    port: 8080,
-    host: 'localhost',
-    hot: true,
-    inline: true,
-    proxy: {
-      '**': 'http://localhost:3000',
-    },
-  },
+  // devServer: {
+  //   publicPath: '/',
+  //   port: 8080,
+  //   host: 'localhost',
+  //   hot: true,
+  //   inline: true,
+  //   proxy: {
+  //     '**': 'http://localhost:3000',
+  //   },
+  // },
   module: {
     rules: [{
       test: /\.js$/,
@@ -77,7 +77,7 @@ module.exports = {
   plugins: [
     // HtmlWebpackPluginConfig,
     // new CleanWebpackPlugin(['build/dist']),
-    new webpack.HotModuleReplacementPlugin(),
+    // new webpack.HotModuleReplacementPlugin(),
     new webpack.NamedModulesPlugin(),
     new webpack.optimize.CommonsChunkPlugin({
       name: 'vendor',
