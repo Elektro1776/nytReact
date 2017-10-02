@@ -22,27 +22,27 @@ module.exports = {
   entry: {
     app: [
       // 'babel-polyfill',
-      'react-hot-loader/patch',
+      // 'react-hot-loader/patch',
       // 'webpack-hot-middleware/client?http://localhost:8080',
-      'webpack/hot/only-dev-server',
+      // 'webpack/hot/only-dev-server',
       './client/renderers/hmr.js',
     ]
   },
   output: {
     path: path.join(__dirname, 'build/dist'),
     filename: '[name].js',
-    publicPath: '/',
+    // publicPath: '/',
   },
-  devServer: {
-    publicPath: '/',
-    port: 8080,
-    host: 'localhost',
-    hot: true,
-    inline: true,
-    proxy: {
-      '**': 'http://localhost:3000',
-    },
-  },
+  // devServer: {
+  //   publicPath: '/',
+  //   port: 8080,
+  //   host: 'localhost',
+  //   hot: true,
+  //   inline: true,
+  //   proxy: {
+  //     '**': 'http://localhost:3000',
+  //   },
+  // },
   module: {
     rules: [{
       test: /\.js$/,
@@ -59,8 +59,8 @@ module.exports = {
   plugins: [
     // HtmlWebpackPluginConfig,
     // new CleanWebpackPlugin(['build/dist']),
-    new webpack.HotModuleReplacementPlugin(),
-    new webpack.NamedModulesPlugin(),
+    // new webpack.HotModuleReplacementPlugin(),
+    // new webpack.NamedModulesPlugin(),
     new webpack.optimize.CommonsChunkPlugin({
       name: 'vendor',
     }),

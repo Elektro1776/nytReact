@@ -14,17 +14,15 @@ const store = createStore(history);
 const root = document.getElementById('root');
 const renderApp = (Component) =>
   render(
-    <AppContainer>
       <Provider store={store}>
         <Component history={history} />
-      </Provider>
-    </AppContainer>,
+      </Provider>,
     root,
   );
 renderApp(App);
-if (module.hot) {
-  module.hot.accept('../containers/ConnectedContainer', () => {
-    const NextApp = require('../containers/ConnectedContainer').default;
-    renderApp(NextApp);
-  });
-}
+// if (module.hot) {
+//   module.hot.accept('../containers/ConnectedContainer', () => {
+//     const NextApp = require('../containers/ConnectedContainer').default;
+//     renderApp(NextApp);
+//   });
+// }
