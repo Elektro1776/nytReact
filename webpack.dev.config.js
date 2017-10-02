@@ -57,7 +57,7 @@ module.exports = {
     ],
   },
   plugins: [
-    HtmlWebpackPluginConfig,
+    // HtmlWebpackPluginConfig,
     // new CleanWebpackPlugin(['build/dist']),
     new webpack.HotModuleReplacementPlugin(),
     new webpack.NamedModulesPlugin(),

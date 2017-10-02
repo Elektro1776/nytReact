@@ -30,14 +30,4 @@ module.exports = {
   //   filename: '[name].bundle.js',
   //   path: path.resolve(__dirname, '/server/src/public'),
   // },
-  module: {
-    loaders: [
-      { test: /\.ejs$/, loader: 'ejs-loader' },
-    ],
-    ejsLoader: {
-      variable: 'data',
-      interpolate: /\{\{(.+?)\}\}/g,
-      evaluate: /\[\[(.+?)\]\]/g,
-    },
-  },
 };

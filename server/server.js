@@ -4,13 +4,21 @@ import { renderPage } from '../client/renderers/server';
 import express from 'express';
 import request from 'request';
 import bodyParser from 'body-parser';
+import mongoose from 'mongoose';
 import path from 'path';
 import config from './config';
+import Article from './src/models/articleModel';
+import articleRouter from './src/routes/article';
 const app = express();
 const PROD = process.env.NODE_ENV === 'production';
-// app.set('view engine', 'ejs');
-// app.set('views', path.join(__dirname, 'src/views'));
-// app.use(express.static(path.join(__dirname, '../build/dist')));
+app.set('view engine', 'ejs');
+app.set('views', path.join(__dirname, 'src/views'));
+mongoose.connect('mongodb://localhost/nytarticles', {
+  useMongoClient: true,
+  reconnectTries: Number.MAX_VALUE
+
+});
+app.use(express.static(path.join(__dirname, '../build/')));
 if (PROD) {
   app.get('/', async (req, res) => {
 
@@ -19,12 +27,15 @@ if (PROD) {
   });
 }
 app.use(bodyParser.json());
+
+app.use('/api/saved', articleRouter);
+
 app.get('*', (req, res) => {
-  res.render('index' );
+  res.render('index', { initalContent: 'Loading'} );
 });
+
 app.post('/api/search', (req,res) => {
   const { q, begin_date, end_date, page } = req.body;
-
   const options = {
     method: 'GET',
     url: 'https://api.nytimes.com/svc/search/v2/articlesearch.json',
@@ -38,9 +49,9 @@ app.post('/api/search', (req,res) => {
       return res.send(response);
     }
     return res.send(err)
-    // console.log(' WHAT ARE THE RESULTS???',);
-  })
-})
+  });
+});
+
 // Serve the files on port 3000.
 app.listen(config.port, () => {
   console.info('Example app listening on port 3000!!!!!!!!! !\n');

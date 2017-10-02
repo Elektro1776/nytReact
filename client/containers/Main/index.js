@@ -20,6 +20,7 @@ class Main extends Component {
     this.handleRecordChange = this.handleRecordChange.bind(this);
     this.handleStartYearChange = this.handleStartYearChange.bind(this);
     this.handleEndYearChange = this.handleEndYearChange.bind(this);
+    this.saveArticle = this.saveArticle.bind(this);
     this.scrollIntoView = this.scrollIntoView.bind(this);
   }
   handleSubmit(e) {
@@ -36,7 +37,7 @@ class Main extends Component {
     const searchQuery = {
       q:searchTerm,
       begin_date: moment(start_date, 'YYYY').format('YYYYMMDD'),
-      end_date: final_date,
+      end_date: moment(final_date, 'YYYY').format('YYYYMMDD'),
       // page: page,
     }
     fetch('/api/search', {
@@ -52,12 +53,28 @@ class Main extends Component {
       const articles = data.response.docs;
       const numOfArticlesToDisplay = articles.slice(0, page);
       this.setState({ results: numOfArticlesToDisplay });
-      const domNode = ReactDom.findDOMNode(this._resultsNode);
-      this.scrollIntoView(domNode);
+      this.scrollIntoView();
     })
     .catch((err) => {
       console.log(' ERROR GETTINGS RESULTS', err);
     })
+  }
+  saveArticle(article) {
+    const { headline, web_url, pub_date } = article;
+    const savedArticle = {
+      headline: headline.main,
+      web_url,
+      pub_date
+    };
+    fetch('/api/saved', {
+      method: 'POST',
+      headers: {
+        'content-type': 'application/json',
+      },
+      body: JSON.stringify(savedArticle),
+    })
+    .then((response) => console.log('SAVED THE ARTICLE', response))
+    .catch((err) => console.warn('Error Saving article', err))
   }
   handleSearchChange(e) {
     this.setState({ searchTerm: e.target.value });
@@ -72,16 +89,21 @@ class Main extends Component {
   handleEndYearChange(e) {
     this.setState({ end_date: e.target.value });
   }
-  scrollIntoView(domNode) {
-    if (domNode) {
-      console.log(' WHAT IS OUR OFFSET?', domNode.offsetTop, );
-    }
+  scrollIntoView() {
+    // const formContainer = ReactDom.findDOMNode(this._formContainer);
+    window.scrollTo(0,780)
+
   }
+
   render() {
     const { searchTerm, page, begin_date, end_date} = this.state;
     return (
       <div className='container'>
-        <div className='row'>
+        <div
+          id='formContainer'
+          ref={container => this._formContainer = container}
+          className='row'
+        >
           <div className='jumbotron col-lg-10 col-lg-offset-1'>
             <Form
               handleSubmit={this.handleSubmit}
@@ -96,9 +118,13 @@ class Main extends Component {
             />
           </div>
         </div>
-        <div className='row'>
+        <div
+          id='results'
+          className='row'
+          ref={component => this._resultsNode = component}
+        >
           <Results
-            ref={component => this._resultsNode = component}
+            saveArticle={this.saveArticle}
             results={this.state.results}
           />
         </div>
