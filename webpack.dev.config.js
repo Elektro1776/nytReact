@@ -49,7 +49,6 @@ module.exports = {
   output: {
     path: path.join(__dirname, 'build/dist'),
     filename: '[name].js',
-    publicPath: '/',
   },
   // devServer: {
   //   publicPath: '/',
@@ -78,7 +77,7 @@ module.exports = {
     // HtmlWebpackPluginConfig,
     // new CleanWebpackPlugin(['build/dist']),
     // new webpack.HotModuleReplacementPlugin(),
-    new webpack.NamedModulesPlugin(),
+    // new webpack.NamedModulesPlugin(),
     new webpack.optimize.CommonsChunkPlugin({
       name: 'vendor',
     }),
