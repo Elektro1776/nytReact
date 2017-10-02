@@ -29,7 +29,7 @@ module.exports = {
       'react-router-redux',
       'history',
       'prop-types',
-      'redux'
+      'redux',
       'redux-thunk',
       'moment',
 
@@ -39,9 +39,9 @@ module.exports = {
     ],
     app: [
       // 'babel-polyfill',
-      'react-hot-loader/patch',
+      // 'react-hot-loader/patch',
       // 'webpack-hot-middleware/client?http://localhost:8080',
-      'webpack/hot/only-dev-server',
+      // 'webpack/hot/only-dev-server',
       './client/renderers/hmr.js',
     ]
   },

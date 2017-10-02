@@ -7,7 +7,7 @@
   "license": "MIT",
   "scripts": {
     "dev": "NODE_ENV=development yarn start:server | yarn start:react",
-    "start": "yarn webpack | yarn start:server",
+    "start": "yarn webpack --stats --verbose | yarn start:server",
     "start:react": "NODE_ENV=development webpack-dev-server --config webpack.dev.config --open ",
     "start:server": "babel-node server/server.js",
     "webpack": "webpack --config webpack.dev.config.js ",
