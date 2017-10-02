@@ -7,9 +7,9 @@
   "license": "MIT",
   "scripts": {
     "dev": "NODE_ENV=development yarn start:server | yarn start:react",
-    "start": "NODE_ENV=development yarn webpack | yarn start:server",
+    "start": "yarn webpack | yarn start:server",
     "start:react": "NODE_ENV=development webpack-dev-server --config webpack.dev.config --open ",
-    "start:server": "pm2 start ecosystem.config.js",
+    "start:server": "babel-node server/server.js",
     "webpack": "webpack --config webpack.dev.config.js ",
     "test": "jest",
     "test:watchAll": "jest --watchAll",

@@ -19,13 +19,13 @@ app.set('views', path.join(__dirname, 'src/views'));
 //
 // });
 app.use(express.static(path.join(__dirname, '../build/')));
-if (PROD) {
-  app.get('/', async (req, res) => {
-
-    const initalContent = renderPage(req);
-    res.render('index', { initalContent });
-  });
-}
+// if (PROD) {
+//   app.get('/', async (req, res) => {
+//
+//     const initalContent = renderPage(req);
+//     res.render('index', { initalContent });
+//   });
+// }
 app.use(bodyParser.json());
 
 app.use('/api/saved', articleRouter);
