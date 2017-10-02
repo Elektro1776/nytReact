@@ -13,11 +13,14 @@ const app = express();
 const PROD = process.env.NODE_ENV === 'production';
 app.set('view engine', 'ejs');
 app.set('views', path.join(__dirname, 'src/views'));
-// mongoose.connect('mongodb://localhost/nytarticles', {
-//   useMongoClient: true,
-//   reconnectTries: Number.MAX_VALUE
-//
-// });
+const db = mongoose.connect('mongodb://elektro:aequitas2@ds157444.mlab.com:57444/heroku_1g9x1j0b', {
+  useMongoClient: true,
+  reconnectTries: Number.MAX_VALUE
+
+});
+db.on('error', console.error.bind(console, 'connection error:'));
+db.once('open', function() {
+console.log('connected');});
 app.use(express.static(path.join(__dirname, '../build/')));
 // if (PROD) {
 //   app.get('/', async (req, res) => {
