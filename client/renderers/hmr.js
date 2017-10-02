@@ -15,9 +15,10 @@ const root = document.getElementById('root');
 const renderApp = (Component) =>
   render(
     // <AppContainer>
+
       <Provider store={store}>
         <Component history={history} />
-      </Provider>
+      </Provider>,
     // </AppContainer>,
     root,
   );
