@@ -20,6 +20,23 @@ module.exports = {
     modules: [path.resolve('./client'), path.resolve('./node_modules'), path.resolve(root, 'client/node_modules')],
   },
   entry: {
+    vendor: [
+      'babel-polyfill',
+      'react',
+      'react-dom',
+      'react-router',
+      'react-router-dom',
+      'react-router-redux',
+      'history',
+      'prop-types',
+      'redux'
+      'redux-thunk',
+      'moment',
+
+      // 'axios',
+      // 'lodash.debounce',
+      // 'lodash.pickby',
+    ],
     app: [
       // 'babel-polyfill',
       'react-hot-loader/patch',
