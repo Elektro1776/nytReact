@@ -32,6 +32,7 @@ module.exports = {
       'redux',
       'redux-thunk',
       'moment',
+      'remote-redux-devtools',
 
       // 'axios',
       // 'lodash.debounce',
