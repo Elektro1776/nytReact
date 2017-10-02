@@ -6,7 +6,6 @@
   "author": "Austin <elektricwebdesign@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "prestart": "mongod --fork --logpath logs/mongodb.log --verbose",
     "dev": "NODE_ENV=development yarn start:server | yarn start:react",
     "start": "NODE_ENV=development yarn webpack | yarn start:server",
     "start:react": "NODE_ENV=development webpack-dev-server --config webpack.dev.config --open ",
