@@ -13,11 +13,11 @@ const app = express();
 const PROD = process.env.NODE_ENV === 'production';
 app.set('view engine', 'ejs');
 app.set('views', path.join(__dirname, 'src/views'));
-mongoose.connect('mongodb://localhost/nytarticles', {
-  useMongoClient: true,
-  reconnectTries: Number.MAX_VALUE
-
-});
+// mongoose.connect('mongodb://localhost/nytarticles', {
+//   useMongoClient: true,
+//   reconnectTries: Number.MAX_VALUE
+//
+// });
 app.use(express.static(path.join(__dirname, '../build/')));
 if (PROD) {
   app.get('/', async (req, res) => {
